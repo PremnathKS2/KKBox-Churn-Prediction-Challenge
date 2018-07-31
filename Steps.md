@@ -8,15 +8,16 @@
 
 ## Data Analysis
 ### A.	Numerical features
-•	Price – This is our response that we need to predict
-•	Shipping cost
+•	
+•	payment_plan_days : How many days plan 25, 50, 100 etc...
+
 ### B.	Categorical features
-•	Shipping cost: A binary indicator, 1 if shipping fee is paid by the seller and 0 if paid by buyer.
-•	item_condition_id: The condition of the items provided by the seller
-•	name: The item's name
-•	brand_name: The item's producer brand name
-•	category_name: The item's single or multiple categories that are separated by "\"
-•	item_description: A short description on the item that may include removed words, flagged by [rm]
+•	is_auto_renew : A binary indicator, 1 if auto renewval is true and 0 if auto renewval false.
+•	gender : Specifying about member gender
+•	payment_method_id : Which payment method used to subscribe
+•	is_cancel : subcriber can cancel or not
+•	
+•	
 
 There are 1048576 unique subscribers data in the members data
 And 970961 unique records in train data with is_churn values
@@ -24,7 +25,8 @@ And 970961 unique records in train data with is_churn values
 Filtered sample data in sample_submission_v2 within the date range of Apr. To June 2017
 
 #### is_chur(Target Variable)
-
+is_churn: A binary indicator, is_churn = 1 means churn,is_churn = 0 means renewal.
+This is the target variable, Churn is defined as weather the user did not continued the subscription with in 30 Days of expiration.
 
 ## Cleansing Data
 1. Finding the null datetime column
