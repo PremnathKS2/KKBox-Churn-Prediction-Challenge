@@ -1,4 +1,4 @@
-# KKBox-Curn-Prediction-Challenge
+# KKBox-Churn-Prediction-Challenge
 
 ## Overview
 For a subscription business, accurately predicting churn is critical to long-term success. Even slight variations in churn can drastically affect profits.
