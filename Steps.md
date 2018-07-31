@@ -24,7 +24,7 @@ And 970961 unique records in train data with is_churn values
 
 Filtered sample data in sample_submission_v2 within the date range of Apr. To June 2017
 
-#### is_chur(Target Variable)
+#### is_churn(Target Variable)
 is_churn: A binary indicator, is_churn = 1 means churn,is_churn = 0 means renewal.
 This is the target variable, Churn is defined as weather the user did not continued the subscription with in 30 Days of expiration.
 
